@@ -35,6 +35,9 @@
             label1 = new Label();
             label2 = new Label();
             button3 = new Button();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            label3 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -93,7 +96,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(12, 136);
+            button3.Location = new Point(12, 162);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 6;
@@ -101,11 +104,45 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Checked = true;
+            radioButton1.Location = new Point(20, 51);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(86, 24);
+            radioButton1.TabIndex = 7;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Random";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(20, 81);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(70, 24);
+            radioButton2.TabIndex = 8;
+            radioButton2.Text = "Linear";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(20, 27);
+            label3.Name = "label3";
+            label3.Size = new Size(119, 20);
+            label3.TabIndex = 9;
+            label3.Text = "Question display";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton1);
             Controls.Add(button3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -128,5 +165,8 @@
         private Label label1;
         private Label label2;
         private Button button3;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private Label label3;
     }
 }

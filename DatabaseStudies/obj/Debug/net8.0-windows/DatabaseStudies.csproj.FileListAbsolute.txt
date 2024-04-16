@@ -14,3 +14,4 @@ C:\Users\wasjr\OneDrive - Lethbridge College\Documents\2024-Winter\programming2\
 C:\Users\wasjr\OneDrive - Lethbridge College\Documents\2024-Winter\programming2\c_sharp\DatabaseStudies\DatabaseStudies\obj\Debug\net8.0-windows\DatabaseStudies.pdb
 C:\Users\wasjr\OneDrive - Lethbridge College\Documents\2024-Winter\programming2\c_sharp\DatabaseStudies\DatabaseStudies\obj\Debug\net8.0-windows\DatabaseStudies.genruntimeconfig.cache
 C:\Users\wasjr\OneDrive - Lethbridge College\Documents\2024-Winter\programming2\c_sharp\DatabaseStudies\DatabaseStudies\obj\Debug\net8.0-windows\ref\DatabaseStudies.dll
+C:\Users\wasjr\OneDrive - Lethbridge College\Documents\2024-Winter\programming2\c_sharp\DatabaseStudies\DatabaseStudies\obj\Debug\net8.0-windows\DatabaseStudies.sourcelink.json

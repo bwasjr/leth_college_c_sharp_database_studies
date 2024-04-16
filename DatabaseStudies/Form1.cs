@@ -6,8 +6,9 @@ namespace DatabaseStudies
     {
         ArrayList questions = new ArrayList();
         ArrayList answers = new ArrayList();
+        bool isRandom = true;        
         Random rnd = new Random();
-        int getRandom;
+        int getRandom = -1;
 
         public Form1()
         {
@@ -20,14 +21,26 @@ namespace DatabaseStudies
             textBox1.Text = null;
             textBox2.Text = null;
 
-            getRandom = rnd.Next(0, questions.Count);
-
-            textBox1.Text = (String)questions[getRandom];
+            if (isRandom) {
+                showRandomQuestion();
+                return;
+            }
+            showLinearQuestion();
 
         }
 
+        
+
         private void button3_Click(object sender, EventArgs e)
         {
+            if (radioButton1.Checked)
+                isRandom = true;
+            else {
+                isRandom = false;
+                getRandom = -1;
+            }
+                
+
             String[] splitted = new string[3];
             textBox1.Text = null;
 
@@ -50,6 +63,28 @@ namespace DatabaseStudies
         {
             textBox2.Text = null;
             textBox2.Text = (String)answers[getRandom];
+        }
+
+        private void showRandomQuestion()
+        {
+            getRandom = rnd.Next(0, questions.Count);
+            textBox1.Text = (String)questions[getRandom];
+        }
+
+        private void showLinearQuestion()
+        {
+            getRandom++;
+            if (getRandom == questions.Count)
+            {
+                MessageBox.Show("restarting from the beggining");
+                getRandom = 0;
+            }
+
+
+            textBox1.Text = (String)questions[getRandom];
+            
+
+            
         }
     }
 }

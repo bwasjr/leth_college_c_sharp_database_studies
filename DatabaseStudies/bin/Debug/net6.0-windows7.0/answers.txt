@@ -1,0 +1,56 @@
+0|Normalization is a technique to eliminate all redundancies. True or false?|False
+1|A _____ is a query inside a query. subquery / range query /join /set query|subquery
+2|All join conditions are connected through a(n) _____ logical operator. NOR  / OR /AND / NOT|AND
+3|A(n) _____ join returns not only the rows matching the join condition (that is, rows with matching values in the common columns) but also the rows with unmatched values.  outer /  inner /equi- / cross |outer
+4|A(n) _____ join will select only the rows with matching values in the common attribute(s). natural / cross / full / outer|natural
+5|A(n) _____ query can be used to produce a relation that retains the duplicate rows. Fill the blank:  |UNION-ALL
+6|A(n) _____ subquery is a subquery that executes once for each row in the outer query. Fill the blank: |correlated
+7|A trigger is procedural SQL code that is automatically invoked by the RDBMS upon the occurrence of a given data manipulation event. True or false?|true
+8|The ANSI standard defines _____ type(s) of outer join(s). one / two/three/four|three
+9|The following SQL statement uses a(n) _____. SELECT P_CODE, P_DESCRIPT, P_PRICE, V_NAME FROM PRODUCT, VENDOR WHERE PRODUCT.V_CODE = VENDOR.V_CODE; set operator / natural join  / “old-style” join /procedural statement | “old-style” join
+10|The _____ statement can be used to combine rows from two queries, returning only the rows that appear in both sets. Fill the blank: |intersect
+11|The _____ statement combines rows from two queries and excludes duplicates.UNION /  UNION ALL/  INTERSECT/ MINUS | union
+12|The _____ statement combines the output of two SELECT queries. Fill the blank:|union
+13|The statement SELECT * FROM T1, T2 produces a(n) _____ join. cross / natural /  equi- /  full |cross
+14|The syntax for a left outer join is _____. SELECT column-list FROM table1 OUTER JOIN table2 LEFT WHERE join-condition / SELECT column-list FROM table1 LEFT [OUTER] JOIN table2 ON join-condition / SELECT column-list WHERE LEFT table1 = table 2 / sELECT column-list FROM table1 LEFT table2 [JOIN] WHERE join-condition | option 2
+15|All SQL commands must be issued on a single line. True or false?|False
+16|Although SQL commands can be grouped together on a single line, complex command sequences are best shown on separate lines, with space between the SQL command and the command’s components. TF?|true
+17|An alias is especially useful when a table must be joined to itself in a(n) _____ query.Fill the blank|recursive
+18|A(n) _____ is performed when data are retrieved from more than one table at a time. FTB:|join
+19|A table can be deleted from the database by using the _____ command.FTB|drop table
+20|Entity integrity is enforced automatically when the primary key is specified in the CREATE TABLE command sequence. TF?|True
+21|In a 1:M relationship, a user must always create the table for the _____ side first. FTB: |one
+22|In an INSERT command, a user can indicate just the attributes that have required values by listing the _____ inside parentheses after the table name. FTB:|attributes-names
+23|In the SQL environment, the word _____ covers both questions and actions.FTB: |query
+24|SQL requires the use of the ADD command to enter data into a table. TF?|False
+25|The _____ command is used with the ALTER TABLE command to modify the table by deleting a column. FTB:|drop
+26|The COUNT function is designed to tally the number of non-null "values" of an attribute, and is often used in conjunction with the DISTINCT clause. TF?|true
+27|The SQL aggregate function that gives the total of all values for a selected attribute in a given column is _____. count/min/max/sum|SUM
+28|The data format for SQL character is _____. CHAR and VARCHAR /VARCHAR only /alphanumeric /CHAR only |char and varchar
+29|The SQL command that allows a user to insert rows into a table is _____. insert/select/commit/update|insert
+30|The SQL command that allows a user to list the contents of a table is _____. insert/select/commit/update|select
+31|The SQL command that allows a user to permanently save data changes is _____.insert/select/commit/update|commit
+32|The SQL command that modifies an attribute’s values in one or more table’s rows is _____.insert/select/commit/update|update
+33|The SQL data manipulation command HAVING:restricts the selection of rows based on a conditional expression./restricts the selection of grouped rows based on a condition./modifies an attribute’s values in one or more table’s rows./groups the selected rows based on one or more attributes.|restricts the selection of grouped rows based on a condition.
+34|An alias cannot be used when a table is required to be joined to itself in a recursive query. TF?|false
+35|UPDATE tablename ***** [WHERE conditionlist]; The _____ command replaces the ***** in the syntax of the UPDATE command, shown above. SET columnname = expression  / columnname = expression / expression = columnname /  LET columnname = expression |SET columnname = expression
+36|The result of analysis should be a better understanding of the system's functional areas, actual and potential problems, and opportunities. TF?|true
+37|The process of database design and implementation is ____ development. systems/database/network/transformation|database
+38|Installation and fine tuning are part of the ____ phase of the SDLC. planning / analysis /  detailed systems design / implementation| implementation
+39|The conceptual design step that defines entities, attributes, and relationships is ____. database analysis and requirements  / entity relationship modelling and normalization / data model verification / distributed database design |entity relationship modelling and normalization 
+40|The conceptual design step that determines end-user views, outputs, and transaction-processing requirements is ____. data analysis and requirements  / entity relationship modelling and normalization  /  data model verification / distributed database design |data analysis and requirements 
+41|Define the term transaction as it applies to databases. FTB: |A transaction is a set of data manipulation commands that record a real-world transaction. Transactions should have the ACID properties.
+42|List and briefly describe the desired properties of transactions. (4 pts for the properties, 4 pts. for the descriptions). FTB:|Atomicity (All operations of a transaction must be completed) Consistency (Database must be in a consistent state before and after the transaction) Isolation (Data in use by one transaction may not be used by another transaction) Durability (Completed transactions are permanent)
+43|Describe the contents and application of a transaction log. FTB: |A transaction log contains a record of data changes in the database. It is retained for recovery purposes and for rolling back incomplete transactions.
+44|Describe the purpose and function of database locks. FTB:|Locks are intended to maintain isolation during a transaction;. When one transaction intends to read or write data, it may lock the record to prevent other transactions changing the data.
+45|What is deadlock?. FTB: |When two (or more) transactions are forced to mutually wait for the other to release locks.
+46|A centralized database management is subject to a problem such as _____. a growing number of remote locations /  maintaining and operating small database systems / dependence on multiple sites / organizational flexibility of the database |  I AM NOT SURE BECAUSE CANVAS DID NOT SHOW THE CORRECT ANSWER. MY GUESS IS: organizational flexibility of the database
+47|A disadvantage of a distributed database management system (DDBMS) is that: it is slower in terms of data access.  / adding new sites affects other sites' operations./ it is processor dependent. / there are lack of standards. |I AM NOT SURE BECAUSE CANVAS DID NOT SHOW THE CORRECT ANSWER. MY GUESS IS: it is slower in terms of data access. 
+48|A distributed database management system (DDBMS) governs the storage and processing of logically related data over interconnected computer systems. TF?|true
+49|Which of the following is an advantage associated with a distributed database management system (DDBMS)? Reduced operating costs  / Simplicity of management and control / Decreased storage requirements / Decreased training costs |Reduced operating costs 
+50|Both distributed processing and distributed databases require a network of interconnected components. TF?|true
+51|_____ fragmentation refers to the division of a relation into attribute subsets.  Data  / horizontal / vertical / mixed| vertical
+52|_____ fragmentation refers to the division of a relation into subsets of tuples. Data  / horizontal / vertical / mixed| horizontal
+53|Performance transparency ensures that the system finds the most cost-effective path to access remote data. TF?| true
+54|_____ transparency allows a physically dispersed database to be managed as though it were centralized. distribution / transaction / failure / performance|distribution
+55|_____ transparency allows data to be updated simultaneously at several network sites. transaction / distribution / failure / performance|transaction
