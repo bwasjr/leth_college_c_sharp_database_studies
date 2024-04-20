@@ -1,0 +1,25 @@
+0|An IPv6 address is made up of how many bits? a. 32 / b. 48 / c. 64 / d. 128 / e. 256 | d.128
+1|Which Application-layer protocol provides remote access to a Windows computer via a GUI? a. Telnet b. RDP c. SSH d. FTP| b.RDP
+2|If a protocol is routable, at which TCP/IP layer does it operate? a. Network access b. Internetwork c. Transport d. Application | GUESS: c
+3|Which Application-layer protocol is used to monitor and manage network devices, and what Transport-layer protocol does it use? a. SMTP, UDP b. SNMP, TCP c. SMTP, TCP d. SNMP, UDP| d
+4|Which TCP/IP model layer takes a large chunk of data from the Application layer and breaks it into smaller segments? a. Network access b. Internetwork c. Transport d. Application| c
+5|Which of the following protocols resolves logical addresses to physical addresses? a. DHCP b. TCP c. IP d. DNS e. ARP|e
+6|Which of the following protocols provides connectionless service? (Choose all that apply.) a. IP b. UDP c. TCP d. HTTP| a, b
+7|If you want to design an Applicationlayer protocol that provides fast, efficient communication and doesn’t work with large amounts of data, what Transport-layer protocol would you design it to use?  a. IP b. UDP c. TCP d. HTTP|b
+8|Which of the following is the term for identifying packets used by TCP to establish a connection? a. Port number indicators b. Multiwindow agreement c. Three-way handshake d. Sequencing establishment|c
+9|What element of a DHCP server uses the client MAC address to ensure that the client is leased the same address each time it requests an IP address? a. IP address scope b. Address exclusion c. Reservation d. ARP mapping|c
+10|Which of the following is the first packet sent when a computer wants to lease a new IP address? a. DHCPAck b. DHCPDiscover c. DHCPRequest d. DHCPOffer | Answer: b. DHCPDiscover
+11|Which of the following IPv6 features is an enhancement to IPv4? (Choose all that apply.) a. Larger address space b. Works at the Internetwork and Transport layers c. Built-in security d. Connectionless communication | Answer: a. Larger address space, c. Built-in security
+12|Which protocol can configure a computer’s IP address and subnet mask automatically? a. TCP b. IP c. ARP d. DNS e. DHCP | Answer: e. DHCP
+13|What type of packets are transmitted between a DHCP client and server when a client is initially leasing an IP address? a. Broadcast b. Multicast c. Unicast d. Anycast | Answer: a. Broadcast
+14|Which of the following accurately describes the .edu in the FQDN www.yc.edu? a. Fully qualified domain name b. Top-level domain c. Root domain d. Second-level domain | Answer: b. Top-level domain
+15|What’s another name for a DNS client? a. Alias b. Reservation c. DDNS d. Resolver | Answer: d. Resolver
+16|What type of resource record is an alias for another record? a. MX b. AAAA c. CNAME d. PTR | Answer: c. CNAME
+17|When a Windows computer is configured to use DHCP but no DHCP server is available, what type of address is configured automatically for it? a. PAT b. APIPA c. NAT d. Static | Answer: b. APIPA
+18|Where does a DNS server look when it can’t resolve a query from its zone records or cache? a. Root hints b. Alternate server c. Top-level domain d. BIND | Answer: a. Root hints
+19|What does the Transport layer use to identify source and destination Application-layer protocols? a. Checksum b. TCP address c. Port number d. Root hints | Answer: c. Port number
+20|Which of the following Application-layer protocols typically uses the UDP Transport-layer protocol? (Choose all that apply.) a. HTTP b. DNS c. DHCP d. FTP | Answer: b. DNS, c. DHCP
+21|Which is the correct order of headers, from left to right, in a completed frame? a. Frame, TCP, IP b. UDP, frame, IP c. TCP, IP, frame d. Frame, IP, UDP | Answer: d. Frame, IP, UDP
+22|Which of the following is a task performed by the Network access layer? (Choose all that apply.) a. Verifies that incoming frames have the correct destination MAC address b. Defines and verifies IP addresses c. Transmits and receives bit signals d. Resolves MAC addresses by using IP addresses e. Delivers packets efficiently | Answer: a. Verifies that incoming frames have the correct destination MAC address c. Transmits and receives bit signals
+23|What field of the IP header does the tracert program use to get the IP address of routers in the path? a. Version b. TTL c. Checksum d. Protocol | Answer: b. TTL
+24|Which of the following is not found in a connectionless Transport-layer protocol? (Choose all that apply.) a. Three-way handshake b. Port numbers c. Checksum d. Acknowledgments | Answer: a. Three-way handshake, d. Acknowledgments

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Windows.Forms;
 
 namespace DatabaseStudies
 {
@@ -33,29 +34,46 @@ namespace DatabaseStudies
 
         private void button3_Click(object sender, EventArgs e)
         {
+            String[] splitted = new string[3];
+            textBox1.Text = null;
+            var fileContent = string.Empty;
+            var filePath = string.Empty;
+
             if (radioButton1.Checked)
                 isRandom = true;
-            else {
+            else
+            {
                 isRandom = false;
                 getRandom = -1;
             }
-                
 
-            String[] splitted = new string[3];
-            textBox1.Text = null;
-
-            FileStream inFile = new FileStream("answers.txt", FileMode.Open, FileAccess.Read);
-            StreamReader reader = new StreamReader(inFile);
-
-            while (!reader.EndOfStream)
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                splitted = reader.ReadLine().Split("|");
-                questions.Add(splitted[1]);
-                answers.Add(splitted[2]);
-            }
+                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog.FilterIndex = 2;
+                openFileDialog.RestoreDirectory = true;
 
-            reader.Close();
-            inFile.Close();
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    textBox3.Text = Path.GetFileName(openFileDialog.FileName);
+                    //Get the path of specified file
+                    filePath = openFileDialog.FileName;
+
+                    //Read the contents of the file into a stream
+                    var fileStream = openFileDialog.OpenFile();
+
+                    using (StreamReader reader = new StreamReader(fileStream))
+                    {
+                        while (!reader.EndOfStream)
+                        {
+                            splitted = reader.ReadLine().Split("|");
+                            questions.Add(splitted[1]);
+                            answers.Add(splitted[2]);
+                        }
+                    }
+                }
+            }
             button1_Click(sender, e);
         }
 
