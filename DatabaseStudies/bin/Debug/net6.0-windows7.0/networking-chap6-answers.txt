@@ -10,7 +10,7 @@
 9|When using TCP/IP, which of the following must computers on the same logical network have in common? (Choose all that apply.) a. Network ID b. Host ID c. Subnet mask d. Computer name | Answer: a. Network ID, c. Subnet mask
 10|How many bits must be reallocated from a host ID to a network ID to create 16 subnets? a. 6 b. 4 c. 16 d. 28 | Answer: b. 4
 11|For the Class C network address 192.168.10.0, which of the following subnet masks provides 32 subnets? a. 255.255.255.252 b. 255.255.255.248 c. 255.255.255.240 d. 255.255.255.224 | Answer: b. 255.255.255.248
-12|How many host bits are necessary to assign addresses to 62 hosts? a. 6 b. 5 c. 4 d. 3 | Answer: a. b
+12|How many host bits are necessary to assign addresses to 62 hosts? a. 6 b. 5 c. 4 d. 3 | Answer: a. 6
 13|Which of the following represents a valid IPv6 address? a. 2001:345:abcd:0:230:44 b. 2001:345:abcd::BEEF:44 c. 2001:345::abcd:0:79f::230:44 d. 2001:345:abcd:0:FEED:230:44 | Answer: b. 2001:345:abcd::BEEF:44
 14|Which of the following is a reason to subnet? (Choose all that apply.) a. Networks can be divided into logical groups. b. Subnetting eliminates the need for routers. c. Subnetting can decrease the size of broadcast domains. d. There’s no need to assign static IP addresses to each computer. | Answer: a. Networks can be divided into logical groups. c. Subnetting can decrease the size of broadcast domains.
 15|Which of the following IP addresses has 12 bits in the host ID? a. 172.31.21.12/16 b. 172.31.89.100/12 c. 12.49.127.88/8 d. 12.156.109.252/20 | Answer: d. 12.156.109.252/20

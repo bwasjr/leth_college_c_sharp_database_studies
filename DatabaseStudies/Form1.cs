@@ -9,7 +9,7 @@ namespace DatabaseStudies
         ArrayList answers = new ArrayList();
         bool isRandom = true;        
         Random rnd = new Random();
-        int getRandom = -1;
+        int questionIndex = -1;
 
         public Form1()
         {
@@ -21,7 +21,7 @@ namespace DatabaseStudies
         {
             textBox1.Text = null;
             textBox2.Text = null;
-
+            
             if (isRandom) {
                 showRandomQuestion();
                 return;
@@ -47,7 +47,7 @@ namespace DatabaseStudies
             else
             {
                 isRandom = false;
-                getRandom = -1;
+                questionIndex = -1;
             }
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -83,28 +83,28 @@ namespace DatabaseStudies
         private void button2_Click(object sender, EventArgs e)
         {
             textBox2.Text = null;
-            textBox2.Text = (String)answers[getRandom];
+            textBox2.Text = Convert.ToString(answers[questionIndex]);
         }
 
         private void showRandomQuestion()
         {
-            getRandom = rnd.Next(0, questions.Count);
-            textBox1.Text = (String)questions[getRandom];
+            questionIndex = rnd.Next(0, questions.Count);
+            textBox1.Text = Convert.ToString(questions[questionIndex]);
+            textBox4.Text = Convert.ToString(questionIndex);
         }
 
         private void showLinearQuestion()
         {
-            getRandom++;
-            if (getRandom == questions.Count)
+            questionIndex++;
+            if (questionIndex == questions.Count)
             {
                 MessageBox.Show("restarting from the beggining");
-                getRandom = 0;
+                questionIndex = 0;
             }
 
 
-            textBox1.Text = (String)questions[getRandom];
-            
-
+            textBox1.Text = Convert.ToString(questions[questionIndex]);
+            textBox4.Text= Convert.ToString(questionIndex+1);
             
         }
     }
