@@ -16,7 +16,7 @@
 15|Which of the following is the best routing solution for a network that includes redundant links? a. RIP b. STP c. OSPF d. Static | Answer: b. STP
 16|If you don’t want wireless clients to view the name of your wireless network, what feature should you use? a. WEP b. Disabling SSID broadcasts c. MAC filtering d. AP isolation | Answer: b. Disabling SSID broadcasts
 17|To prevent a wardriver from being able to interpret captured wireless network data, you should enable which of the following? a. MAC filtering b. AP isolation c. WPA2 d. Repeater mode | Answer: c. WPA2
-28|What feature can you use to wirelessly connect the wired networks in two buildings? a. Repeater mode b. AP isolation c. Bridge mode d. VLAN mode | Answer: c. Bridge mode
+18|What feature can you use to wirelessly connect the wired networks in two buildings? a. Repeater mode b. AP isolation c. Bridge mode d. VLAN mode | Answer: c. Bridge mode
 19|Which AP feature is useful when you have many guests accessing your network and you don’t want them to be able to access the computers of other guests? a. MAC filtering b. AP isolation c. Bridge mode d. VLAN mode | Answer: b. AP isolation
 20|Which PC bus uses up to 32 lanes to achieve very high data transfer rates? a. PCI b. PCI-X c. USB d. PCIe | Answer: d. PCIe
 21|Which PC bus allows you to connect a NIC to your computer easily without powering off? a. PCI b. PCI-X c. USB d. PCIe | Answer: c. USB
