@@ -39,6 +39,9 @@ namespace DatabaseStudies
             var fileContent = string.Empty;
             var filePath = string.Empty;
 
+            questions.Clear();
+            answers.Clear();
+
             if (radioButton1.Checked)
                 isRandom = true;
             else
@@ -49,7 +52,7 @@ namespace DatabaseStudies
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.InitialDirectory = ".\\";
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
