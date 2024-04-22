@@ -5,7 +5,7 @@
 4|Which TCP/IP model layer takes a large chunk of data from the Application layer and breaks it into smaller segments? a. Network access b. Internetwork c. Transport d. Application| c
 5|Which of the following protocols resolves logical addresses to physical addresses? a. DHCP b. TCP c. IP d. DNS e. ARP|e
 6|Which of the following protocols provides connectionless service? (Choose all that apply.) a. IP b. UDP c. TCP d. HTTP| a, b
-7|If you want to design an Applicationlayer protocol that provides fast, efficient communication and doesn’t work with large amounts of data, what Transport-layer protocol would you design it to use?  a. IP b. UDP c. TCP d. HTTP|b
+7|If you want to design an Application layer protocol that provides fast, efficient communication and doesn’t work with large amounts of data, what Transport-layer protocol would you design it to use?  a. IP b. UDP c. TCP d. HTTP|b
 8|Which of the following is the term for identifying packets used by TCP to establish a connection? a. Port number indicators b. Multiwindow agreement c. Three-way handshake d. Sequencing establishment|c
 9|What element of a DHCP server uses the client MAC address to ensure that the client is leased the same address each time it requests an IP address? a. IP address scope b. Address exclusion c. Reservation d. ARP mapping|c
 10|Which of the following is the first packet sent when a computer wants to lease a new IP address? a. DHCPAck b. DHCPDiscover c. DHCPRequest d. DHCPOffer | Answer: b. DHCPDiscover

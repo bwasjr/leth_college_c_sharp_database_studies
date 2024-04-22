@@ -1,0 +1,50 @@
+0|ADSL|Asymmetric Digital Subscriber Line
+1|ARP|Address Resolution Protocol
+2|ATM|Asynchronous Transfer Mode
+3|CRC|Cyclic Redundancy Check
+4|CSMA/CD|Carrier Sense Multiple Access with Collision Detection
+5|DHCP|Dynamic Host Configuration Protocol
+6|DNS|Domain Name System
+7|FAQ|Frequently Asked Questions
+8|FDDI|Fiber Distributed Data Interface
+9|FTP|File Transfer Protocol
+10|ICMP|Internet Control Message Protocol
+11|IMAP|Internet Message Access Protocol
+12|IPSec|Internet Protocol Security
+13|IPv4|Internet Protocol version 4
+14|ISDN|Integrated Services Digital Network
+15|ISO|International Organization for Standardization
+16|LAN|Local Area Network
+17|LDAP|Lightweight Directory Access Protocol
+18|MAC|Media Access Control
+19|MAN|Metropolitan Area Network
+20|NAS|Network Attached Storage
+21|NAT|Network Address Translation
+22|NIC|Network Interface Card
+23|NOS|Network Operating System
+24|NTFS|New Technology File System
+25|OSI|Open Systems Interconnection
+26|PAT|Port Address Translation
+27|PDU|Protocol Data Unit
+28|POP3|Post Office Protocol version 3
+29|POTS|Plain Old Telephone Service
+30|QoS|Quality of Service
+31|RIP|Routing Information Protocol
+32|SAN|Storage Area Network
+33|SFTP|SSH File Transfer Protocol
+34|SMB|Server Message Block
+35|SMTP|Simple Mail Transfer Protocol
+36|SNMP|Simple Network Management Protocol
+37|SONET|Synchronous Optical Networking
+38|SSH|Secure Shell
+39|SSID|Service Set Identifier
+40|STP|Spanning Tree Protocol
+41|TCP/IP|Transmission Control Protocol/Internet Protocol
+42|UDP|User Datagram Protocol
+43|UTP|Unshielded Twisted Pair
+44|VLAN|Virtual Local Area Network
+45|VPN|Virtual Private Network
+46|WAN|Wide Area Network
+47|WAP|Wireless Access Point
+48|WEP|Wired Equivalent Privacy
+49|WPA|Wi-Fi Protected Access
